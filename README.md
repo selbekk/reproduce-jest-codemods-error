@@ -38,8 +38,8 @@ index 243df89..fbefa3c 100644
 +        expect(multiply(2, 2)).toBe(4);
      });
      it('throws an error if given non-numbers', () => {
--        expect(() => multiply).withArgs({}, 'not a number').to.throwError();
-+        expect(() => multiply).toThrow();
+-        expect(multiply).withArgs({}, 'not a number').to.throwError();
++        expect(multiply).toThrow();
      });
  });
 ```

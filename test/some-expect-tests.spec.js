@@ -7,6 +7,6 @@ describe('test suite', () => {
         expect(multiply(2, 2)).to.be(4);
     });
     it('throws an error if given non-numbers', () => {
-        expect(() => multiply).withArgs({}, 'not a number').to.throwError();
+        expect(multiply).withArgs({}, 'not a number').to.throwError();
     });
 });
