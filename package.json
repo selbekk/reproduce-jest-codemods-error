@@ -1,0 +1,11 @@
+{
+  "name": "reproduce-jest-codemods-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kristofer Selbekk <kristofer.selbekk@sparebank1.no>",
+  "license": "MIT",
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "jest-codemods": "^0.13.9"
+  }
+}
